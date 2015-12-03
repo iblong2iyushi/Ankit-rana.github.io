@@ -1,0 +1,23 @@
+---
+layout: post
+title: "Mysqldb Tutorial"
+date: 2015-12-03
+---
+
+<p> It is interface between python application and Mysql database. </p>
+
+<p>Connection :<br>
+import _mysql <br>
+db=_mysql.connect(hostname,usrname,password,init_database) <br>
+</p>
+
+<p>Querying :<br>
+  <ol>
+    <li>db.query(sql)<br>
+    r=db.store_result()  #return immediately; not good for large results<br>
+    # ...or...<br>
+    r=db.use_result()    #return row by row from resultSet from server<br>
+    r.fetch_row()
+    </li>
+  </ol>
+</p>
