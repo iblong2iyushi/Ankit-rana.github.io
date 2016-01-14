@@ -7,7 +7,7 @@ I have been trying to write this tutorial for a long time and now it is here. I 
 To learn basics of argparse ,please go to python official documentation. <br> 
 <table>
 <tr><td>
-<h2>Basics<h2>
+<h2>Basics</h2>
 <img src="../../../../../images/1.PNG"><br>
 arguments can be passed to scripts command line or can be provided as list in parse_args()
 </td></tr>
@@ -25,4 +25,4 @@ arguments can be passed to scripts command line or can be provided as list in pa
 <img src="../../../../../images/6.PNG">
 </td></tr>
 </table>
-Thank you everyone for going through this. I hope this helps you as it helped me.
+Thank you everyone for going through this tutorial. I hope this helps you as it helped me.
