@@ -29,13 +29,13 @@ public:
 A() { cout << "A's constructor called" << endl; } 
 }; 
 
-class B 
+class B: public A
 { 
 public: 
 B() { cout << "B's constructor called" << endl; } 
 }; 
 
-class C: public B, public A // Note the order 
+class C: public B // Note the order 
 { 
 public: 
 C() { cout << "C's constructor called" << endl; } 
@@ -51,8 +51,8 @@ int main()
 Output:
 
 ```sh
-B's constructor called
 A's constructor called
+B's constructor called
 C's constructor called
 ```
 ## Python
