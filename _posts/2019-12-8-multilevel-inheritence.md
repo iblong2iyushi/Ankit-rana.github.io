@@ -4,7 +4,7 @@
 ## Introduction
 
   - This blog is about a specific behavior of classes in python.
-  - if you have not gone through how to create the custom classes in python, please checkout this [wonderful resource](https://realpython.com/python3-object-oriented-programming/).  
+  - if you have not gone through how to create the custom classes in python, please checkout this [wonderful resource](https://realpython.com/python3-object-oriented-programming/) for inheritence and [this](https://dbader.org/blog/python-dunder-methods) for polymorphism .  
   - consider below example for next sections
 ```mermaid
 graph TD
