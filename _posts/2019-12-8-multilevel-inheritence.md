@@ -1,13 +1,11 @@
 # Comparision between constructor call order in CPP and initializer call order in Python while Inheritance
 
 
-## Inheritence 
+## Introduction
 
-  - In object-oriented programming, inheritance is the mechanism of basing an object or class upon another object (prototype-based inheritance) or class (class-based inheritance), retaining similar implementation.
-  - Also defined as deriving new classes (sub classes) from existing ones (super class or base class) and forming them into a hierarchy of classes. 
-  - In most class-based object-oriented languages, an object created through inheritance (a "child object") acquires all the properties and behaviors of the parent object (except: constructors, destructor, overloaded operators and friend functions of the base class). 
-  - Inheritance allows programmers to create classes that are built upon existing classes,[1] to specify a new implementation while maintaining the same behaviors (realizing an interface), to reuse code and to independently extend original software via public classes and interfaces. 
-  - suppose
+  - This blog is about a specific behavior of classes in python.
+  - if you have not gone through how to create the custom classes in python, please checkout this [wonderful resource](https://realpython.com/python3-object-oriented-programming/).  
+  - consider below example for next sections
 ```mermaid
 graph TD
 A-->B
